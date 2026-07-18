@@ -32,7 +32,6 @@ async function run() {
     console.log("Tile:", await page2.title());
 
 
-
     //Cleanup - reverse order
     await page1.close();
     await page2.close();
