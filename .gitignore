@@ -7,6 +7,15 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 
+# Generated reports
+/allure-results/
+/allure-report/
+/custom-report/
+/tta-report/
+
 # Local editor / Claude config
 .claude/
 .commandcode/
+
+# OS
+.DS_Store
